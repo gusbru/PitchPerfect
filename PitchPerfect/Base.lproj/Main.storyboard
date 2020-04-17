@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Record Sounds View Controller-->
+        <!--Pitch Perfect-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="RecordSoundsViewController" customModule="PitchPerfect" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Pitch Perfect" id="BYZ-38-t0r" customClass="RecordSoundsViewController" customModule="PitchPerfect" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -51,7 +51,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="mvx-Ib-VlQ"/>
+                    <navigationItem key="navigationItem" title="Record" id="mvx-Ib-VlQ"/>
                     <connections>
                         <outlet property="btnRecord" destination="foP-rZ-JMv" id="wuM-9D-EUE"/>
                         <outlet property="btnStopRecord" destination="u4q-RD-xCy" id="MWE-24-s4R"/>
@@ -63,10 +63,10 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="126.5625"/>
         </scene>
-        <!--Play Sounds View Controller-->
+        <!--Play!-->
         <scene sceneID="U6d-PW-t30">
             <objects>
-                <viewController id="3gl-wc-klE" customClass="PlaySoundsViewController" customModule="PitchPerfect" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Play!" id="3gl-wc-klE" customClass="PlaySoundsViewController" customModule="PitchPerfect" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8FN-gj-GX3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -145,7 +145,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Neu-TH-8WT" firstAttribute="centerX" secondItem="Pgh-vs-O6z" secondAttribute="centerX" id="0kF-h0-zDS"/>
                             <constraint firstItem="wsm-22-PMD" firstAttribute="top" secondItem="Pgh-vs-O6z" secondAttribute="top" id="89c-PG-Hyc"/>
@@ -156,7 +156,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Pgh-vs-O6z"/>
                     </view>
-                    <navigationItem key="navigationItem" id="r3I-0g-kVv"/>
+                    <navigationItem key="navigationItem" title="Play" id="r3I-0g-kVv"/>
                     <connections>
                         <outlet property="chipmunkButton" destination="35H-2e-akp" id="CeD-hr-U5I"/>
                         <outlet property="echoButton" destination="G1B-gG-xXf" id="Do2-Tl-aQ4"/>
